@@ -13,6 +13,7 @@ end
 
 def take_a_number(katz_deli)
     ticket = katz_deli.length + 1
+    katz_deli << ticket
 binding.pry
     #katz_deli << name
     puts "Welcome ticket:#{ticket}, You are number #{katz_deli.length} in line."
