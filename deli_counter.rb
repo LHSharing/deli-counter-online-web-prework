@@ -6,7 +6,6 @@ def line(katz_deli)
      string = "The line is currently:" 
      katz_deli.each_with_index do |name, index|
        string << " #{index + 1}. #{name}"
-#binding.pry
   end
 puts string
 end
@@ -16,6 +15,7 @@ def take_a_number(katz_deli)
     ticket = katz_deli.length + 1
     #katz_deli << name
     puts "Welcome, You are number #{katz_deli.length} in line."
+binding.pry
 end
 
 def now_serving(katz_deli)
