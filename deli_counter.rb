@@ -13,7 +13,7 @@ end
 end
 
 def take_a_number(katz_deli)
-    ticket = []
+    ticket = katz_deli.length + 1
     #katz_deli << name
     puts "Welcome, You are number #{katz_deli.length} in line."
 end
