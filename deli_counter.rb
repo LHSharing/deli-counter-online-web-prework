@@ -13,9 +13,9 @@ end
 
 def take_a_number(katz_deli)
     ticket = katz_deli.length + 1
+binding.pry
     #katz_deli << name
     puts "Welcome, You are number #{katz_deli.length} in line."
-binding.pry
 end
 
 def now_serving(katz_deli)
